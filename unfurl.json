@@ -1,0 +1,269 @@
+{
+  "projectInfo": {
+    "liveUrl": "https://www.google.com",
+    "title": "Wordpress website",
+    "image": "https://i.postimg.cc/ZqxjQN0Y/test-unfurl.png"
+  },
+  "resources": [
+    {
+      "name": "Mysql 5 edited",
+      "value": "mysql",
+      "description": "A leading open source database",
+      "avatar": null,
+      "platform": "Open Source",
+      "type": "Container image"
+    },
+    {
+      "name": "Aiven for MySQL edited",
+      "value": "mysql-aiven",
+      "description": "Managed SQL as a service",
+      "avatar": null,
+      "platform": "Aiven",
+      "type": "SaaS"
+    },
+    {
+      "name": "Cloud SQL edited",
+      "value": "cloud-sql",
+      "description": "A fully managed MySQL and PostgreSQL database service",
+      "avatar": null,
+      "platform": "Google",
+      "type": "Google Cloud Platform"
+    },
+    {
+      "name": "AWS RDS edited",
+      "value": "aws-rds",
+      "description": "A distributed relational database service by AWS",
+      "avatar": null,
+      "platform": "Amazon Web Services",
+      "type": "SaaS"
+    }
+  ],
+  "templates": [
+    {
+      "title": "EC2 edited",
+      "slug": "ec2",
+      "description": "A short description of the template can be showed here",
+      "cloud": "AWS",
+      "environment": "Oc Environment",
+      "total_deployments": 4,
+      "url": "url",
+      "type": "template",
+      "requirements": [
+        {
+          "title": "Compute edited",
+          "description": "A short description of the template can be showed here.",
+          "status": null
+        },
+        {
+          "title": "Mysql",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Dns edited",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Mail Server",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        }
+      ]
+    },
+    {
+      "title": "EC2-TEST",
+      "slug": "ec2-test",
+      "description": "A short description of the template can be showed here",
+      "cloud": "Google Cloud",
+      "environment": "Oc Environment",
+      "total_deployments": 5,
+      "url": "url",
+      "type": "template",
+      "requirements": [
+        {
+          "title": "Compute",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Mysql",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Dns",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Mail Server",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        }
+      ]
+    },
+    {
+      "title": "GCP - Cloud Run",
+      "slug": "gpc-cloud-run",
+      "description": "A short description of the template can be showed here",
+      "cloud": "Google Cloud",
+      "total_deployments": 5,
+      "url": "url",
+      "type": "template",
+      "requirements": [
+        {
+          "title": "Compute",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Mysql",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Dns",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Mail Server",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        }
+      ]
+    },
+    {
+      "title": "Dev-Local",
+      "slug": "dev-local",
+      "description": "A short description of the template can be showed here",
+      "cloud": "Local",
+      "environment": "Oc Environment",
+      "total_deployments": 0,
+      "url": "url",
+      "type": "template",
+      "requirements": [
+        {
+          "title": "Compute",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Mysql",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Dns",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Mail Server",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        }
+      ]
+    },
+    {
+      "title": "Dev-Gitpod",
+      "slug": "dev-gitpod",
+      "description": "A short description of the template can be showed here",
+      "cloud": "Google Cloud",
+      "environment": "production",
+      "total_deployments": 0,
+      "url": "url",
+      "type": "template",
+      "requirements": [
+        {
+          "title": "Compute",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Mysql",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Dns",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        },
+        {
+          "title": "Mail Server",
+          "description": "A short description of the template can be showed here",
+          "status": null
+        }
+      ]
+    }
+  ],
+  "environments": [
+    {
+      "name": "Environment #1",
+      "cloud": "Googe Cloud"
+    },
+    {
+      "name": "Environment #2",
+      "cloud": "AWS"
+    },
+    {
+      "name": "Environment #3",
+      "cloud": "Local"
+    }
+  ],
+  "inputs": [
+    {
+      "title": "wp_admin_username",
+      "value": "",
+      "instructions": "Wordpress username"
+    },
+    {
+      "title": "CPUs",
+      "value": "",
+      "instructions": "Number of CPUs for the server"
+    },
+    {
+      "title": "Storage_size",
+      "value": "",
+      "instructions": "Size of the storage to be created."
+    }
+  ],
+  "outputs": [
+    {
+      "title": "Lorem ipsum",
+      "instructions": "Description or instructions for output"
+    },
+    {
+      "title": "Lorem ipsum",
+      "instructions": "Description or instructions for output"
+    }
+  ],
+  "requirements": [
+    {
+      "title": "Compute",
+      "badge": "host",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam sollicitudin tempor id eu nisl nunc mi. Auctor augue mauris augue neque gravida in fermentum.",
+      "url": ""
+    },
+    {
+      "title": "Mysql",
+      "badge": "database",
+      "description": "Description of requirements.",
+      "url": ""
+    },
+    {
+      "title": "Dns",
+      "badge": "",
+      "description": "Description of requirements.",
+      "url": ""
+    },
+    {
+      "title": "Mail Server",
+      "badge": "",
+      "description": "Description of requirements.",
+      "url": ""
+    }
+  ]
+}
