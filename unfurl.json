@@ -64,32 +64,65 @@
       "total_deployments": 4,
       "url": "url",
       "type": "template",
-      "requirements": [
-        {
-          "title": "Compute",
+      "resource_templates": {
+        "primary": {
+          "title": "Wordpress website 2.0",
           "description": "A short description of the template can be showed here",
           "status": null,
-          "type": "Compute"
-        },
-        {
-          "title": "Mysql",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "Mysql"
-        },
-        {
-          "title": "Dns",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "DNS"
-        },
-        {
-          "title": "Mail Server",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "Mail"
+          "type": "WordPress",
+          "requirements": [
+            {
+              "title": "Compute",
+              "description": "A short description of the template can be showed here",
+              "type": "Compute",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Mysql",
+              "description": "A short description of the template can be showed here",
+              "type": "Mysql",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Dns",
+              "description": "A short description of the template can be showed here",
+              "type": "DNS",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Mail Server",
+              "description": "A short description of the template can be showed here",
+              "type": "Mail",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            }
+          ],
+          "inputs": [
+            {
+              "title": "wp_admin_username",
+              "value": "",
+              "instructions": "Wordpress username"
+            },
+            {
+              "title": "CPUs",
+              "value": "",
+              "instructions": "Number of CPUs for the server"
+            },
+            {
+              "title": "Storage_size",
+              "value": "",
+              "instructions": "Size of the storage to be created."
+            }
+          ]
         }
-      ]
+      }
     },
     {
       "title": "EC2-TEST",
@@ -100,32 +133,65 @@
       "total_deployments": 5,
       "url": "url",
       "type": "template",
-      "requirements": [
-        {
-          "title": "Compute",
+      "resource_templates": {
+        "primary": {
+          "title": "Wordpress website 2.0",
           "description": "A short description of the template can be showed here",
           "status": null,
-          "type": "Compute"
-        },
-        {
-          "title": "Mysql",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "Mysql"
-        },
-        {
-          "title": "Dns",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "DNS"
-        },
-        {
-          "title": "Mail Server",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "Mail"
+          "type": "WordPress",
+          "requirements": [
+            {
+              "title": "Compute",
+              "description": "A short description of the template can be showed here",
+              "type": "Compute",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Mysql",
+              "description": "A short description of the template can be showed here",
+              "type": "Mysql",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Dns",
+              "description": "A short description of the template can be showed here",
+              "type": "DNS",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Mail Server",
+              "description": "A short description of the template can be showed here",
+              "type": "Mail",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            }
+          ],
+          "inputs": [
+            {
+              "title": "wp_admin_username",
+              "value": "",
+              "instructions": "Wordpress username"
+            },
+            {
+              "title": "CPUs",
+              "value": "",
+              "instructions": "Number of CPUs for the server"
+            },
+            {
+              "title": "Storage_size",
+              "value": "",
+              "instructions": "Size of the storage to be created."
+            }
+          ]
         }
-      ]
+      }
     },
     {
       "title": "GCP - Cloud Run",
@@ -135,32 +201,65 @@
       "total_deployments": 5,
       "url": "url",
       "type": "template",
-      "requirements": [
-        {
-          "title": "Compute",
+      "resource_templates": {
+        "primary": {
+          "title": "Wordpress website 2.0",
           "description": "A short description of the template can be showed here",
           "status": null,
-          "type": "Compute"
-        },
-        {
-          "title": "Mysql",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "Mysql"
-        },
-        {
-          "title": "Dns",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "DNS"
-        },
-        {
-          "title": "Mail Server",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "Mail"
+          "type": "WordPress",
+          "requirements": [
+            {
+              "title": "Compute",
+              "description": "A short description of the template can be showed here",
+              "type": "Compute",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Mysql",
+              "description": "A short description of the template can be showed here",
+              "type": "Mysql",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Dns",
+              "description": "A short description of the template can be showed here",
+              "type": "DNS",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Mail Server",
+              "description": "A short description of the template can be showed here",
+              "type": "Mail",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            }
+          ],
+          "inputs": [
+            {
+              "title": "wp_admin_username",
+              "value": "",
+              "instructions": "Wordpress username"
+            },
+            {
+              "title": "CPUs",
+              "value": "",
+              "instructions": "Number of CPUs for the server"
+            },
+            {
+              "title": "Storage_size",
+              "value": "",
+              "instructions": "Size of the storage to be created."
+            }
+          ]
         }
-      ]
+      }
     },
     {
       "title": "Dev-Local",
@@ -171,32 +270,65 @@
       "total_deployments": 0,
       "url": "url",
       "type": "template",
-      "requirements": [
-        {
-          "title": "Compute",
+      "resource_templates": {
+        "primary": {
+          "title": "Wordpress website 2.0",
           "description": "A short description of the template can be showed here",
           "status": null,
-          "type": "Compute"
-        },
-        {
-          "title": "Mysql",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "Mysql"
-        },
-        {
-          "title": "Dns",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "DNS"
-        },
-        {
-          "title": "Mail Server",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "Mail"
+          "type": "WordPress",
+          "requirements": [
+            {
+              "title": "Compute",
+              "description": "A short description of the template can be showed here",
+              "type": "Compute",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Mysql",
+              "description": "A short description of the template can be showed here",
+              "type": "Mysql",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Dns",
+              "description": "A short description of the template can be showed here",
+              "type": "DNS",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Mail Server",
+              "description": "A short description of the template can be showed here",
+              "type": "Mail",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            }
+          ],
+          "inputs": [
+            {
+              "title": "wp_admin_username",
+              "value": "",
+              "instructions": "Wordpress username"
+            },
+            {
+              "title": "CPUs",
+              "value": "",
+              "instructions": "Number of CPUs for the server"
+            },
+            {
+              "title": "Storage_size",
+              "value": "",
+              "instructions": "Size of the storage to be created."
+            }
+          ]
         }
-      ]
+      }
     },
     {
       "title": "Dev-Gitpod",
@@ -207,32 +339,65 @@
       "total_deployments": 0,
       "url": "url",
       "type": "template",
-      "requirements": [
-        {
-          "title": "Compute",
+      "resource_templates": {
+        "primary": {
+          "title": "Wordpress website 2.0",
           "description": "A short description of the template can be showed here",
           "status": null,
-          "type": "Compute"
-        },
-        {
-          "title": "Mysql",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "Mysql"
-        },
-        {
-          "title": "Dns",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "DNS"
-        },
-        {
-          "title": "Mail Server",
-          "description": "A short description of the template can be showed here",
-          "status": null,
-          "type": "Mail"
+          "type": "WordPress",
+          "requirements": [
+            {
+              "title": "Compute",
+              "description": "A short description of the template can be showed here",
+              "type": "Compute",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Mysql",
+              "description": "A short description of the template can be showed here",
+              "type": "Mysql",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Dns",
+              "description": "A short description of the template can be showed here",
+              "type": "DNS",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Mail Server",
+              "description": "A short description of the template can be showed here",
+              "type": "Mail",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            }
+          ],
+          "inputs": [
+            {
+              "title": "wp_admin_username",
+              "value": "",
+              "instructions": "Wordpress username"
+            },
+            {
+              "title": "CPUs",
+              "value": "",
+              "instructions": "Number of CPUs for the server"
+            },
+            {
+              "title": "Storage_size",
+              "value": "",
+              "instructions": "Size of the storage to be created."
+            }
+          ]
         }
-      ]
+      }
     }
   ],
   "environments": [
