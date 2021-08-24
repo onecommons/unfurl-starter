@@ -14,7 +14,21 @@
       "badge": "Database",
       "type": "Mysql Container image",
       "requirements": [
-        "Compute"
+        {
+          "title": "Compute",
+          "description": "The compute instance to run the database on",
+          "type": "Compute",
+          "status": null,
+          "connectedOrCreated": null,
+          "fullfilled_by": null
+        }
+      ],
+      "inputs": [
+        {
+          "title": "Database Version",
+          "value": "11.2",
+          "instructions": "Wordpress username"
+        }
       ]
     },
     {
@@ -26,7 +40,21 @@
       "badge": "Database",
       "type": "Mysql SaaS",
       "requirements": [
-        "Compute"
+        {
+          "title": "Compute",
+          "description": "The compute instance to run the database on",
+          "type": "Compute",
+          "status": null,
+          "connectedOrCreated": null,
+          "fullfilled_by": null
+        }
+      ],
+      "inputs": [
+        {
+          "title": "Database Version",
+          "value": "11.2",
+          "instructions": "Wordpress username"
+        }
       ]
     },
     {
@@ -38,7 +66,21 @@
       "badge": "Database",
       "type": "Mysql GPC",
       "requirements": [
-        "Compute"
+        {
+          "title": "Compute",
+          "description": "The compute instance to run the database on",
+          "type": "Compute",
+          "status": null,
+          "connectedOrCreated": null,
+          "fullfilled_by": null
+        }
+      ],
+      "inputs": [
+        {
+          "title": "Database Version",
+          "value": "11.2",
+          "instructions": "Wordpress username"
+        }
       ]
     },
     {
@@ -50,7 +92,59 @@
       "badge": "Database",
       "type": "Mysql SaaS",
       "requirements": [
-        "Compute"
+        {
+          "title": "Compute",
+          "description": "The compute instance to run the database on",
+          "type": "Compute",
+          "status": null,
+          "connectedOrCreated": null,
+          "fullfilled_by": null
+        }
+      ],
+      "inputs": [
+        {
+          "title": "Database Version",
+          "value": "11.2",
+          "instructions": "Wordpress username"
+        }
+      ]
+    },
+    {
+      "name": "AWS Route53",
+      "value": "aws-route53",
+      "description": "AWS Route53 dns service",
+      "avatar": null,
+      "platform": "Amazon Web Services",
+      "badge": "DNS",
+      "type": "DNS",
+      "requirements": [
+
+      ],
+      "inputs": [
+        {
+          "title": "Database Version",
+          "value": "11.2",
+          "instructions": "Setup your database version."
+        }
+      ]
+    },
+    {
+      "name": "AWS EC2",
+      "value": "aws-ec2",
+      "description": "AWS EC2 Instance",
+      "avatar": null,
+      "platform": "Amazon Web Services",
+      "badge": "COMPUTE",
+      "type": "COMPUTE",
+      "requirements": [
+
+      ],
+      "inputs": [
+        {
+          "title": "EC2 Type of instance",
+          "value": "t2.micro",
+          "instructions": "Instance type"
+        }
       ]
     }
   ],
@@ -491,6 +585,22 @@
       "avatar": null,
       "platform": "Amazon aws",
       "type": "Compute"
+    },
+    {
+      "name": "Lightsail",
+      "value": "lightsail 1",
+      "description": "lightsail VCP",
+      "avatar": null,
+      "platform": "Amazon aws",
+      "type": "Compute"
+    },
+    {
+      "name": "Amazon SMS",
+      "value": "amazon_sms",
+      "description": "Amazon simple mail service",
+      "avatar": null,
+      "platform": "Amazon aws",
+      "type": "Mail"
     }
   ]
 }
