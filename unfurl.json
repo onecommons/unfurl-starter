@@ -9,7 +9,7 @@
       "name": "Mysql 5 edited",
       "value": "mysql",
       "description": "A leading open source database",
-      "avatar": null,
+      "avatar": "https://i.postimg.cc/qBsCwX43/mysqlq-logo.png",
       "platform": "Open Source",
       "badge": "Database",
       "type": "Mysql Container image",
@@ -35,7 +35,7 @@
       "name": "Aiven for MySQL edited",
       "value": "mysql-aiven",
       "description": "Managed SQL as a service",
-      "avatar": null,
+      "avatar": "https://i.postimg.cc/cCQNfLnp/aivenpng.png",
       "platform": "Aiven",
       "badge": "Database",
       "type": "Mysql SaaS",
@@ -61,7 +61,7 @@
       "name": "Cloud SQL edited",
       "value": "cloud-sql",
       "description": "A fully managed MySQL and PostgreSQL database service",
-      "avatar": null,
+      "avatar": "https://i.postimg.cc/bJk5BFwb/postgresql-icon-12.png",
       "platform": "Google",
       "badge": "Database",
       "type": "Mysql GPC",
@@ -87,7 +87,7 @@
       "name": "AWS RDS edited",
       "value": "aws-rds",
       "description": "A distributed relational database service by AWS",
-      "avatar": null,
+      "avatar": "https://i.postimg.cc/B67jRN7S/rds.png",
       "platform": "Amazon Web Services",
       "badge": "Database",
       "type": "Mysql SaaS",
@@ -113,7 +113,7 @@
       "name": "AWS Route53",
       "value": "aws-route53",
       "description": "AWS Route53 dns service",
-      "avatar": null,
+      "avatar": "https://i.postimg.cc/Z5LspyDP/pngwing-com.png",
       "platform": "Amazon Web Services",
       "badge": "DNS",
       "type": "DNS",
@@ -132,7 +132,7 @@
       "name": "AWS EC2",
       "value": "aws-ec2",
       "description": "AWS EC2 Instance",
-      "avatar": null,
+      "avatar": "https://i.postimg.cc/ydxdhc1w/2185396.png",
       "platform": "Amazon Web Services",
       "badge": "COMPUTE",
       "type": "COMPUTE",
@@ -492,6 +492,75 @@
           ]
         }
       }
+    },
+    {
+      "title": "testagain",
+      "slug": "testagain",
+      "description": "A short description of the template can be showed here",
+      "cloud": "Local",
+      "type": "deployment",
+      "environment": "testonemoretime",
+      "total_deployments": 0,
+      "url": "url",
+      "resource_templates": {
+        "primary": {
+          "title": "Wordpress website 2.0",
+          "description": "A short description of the template can be showed here",
+          "status": null,
+          "type": "WordPress",
+          "requirements": [
+            {
+              "title": "Compute",
+              "description": "A short description of the template can be showed here",
+              "type": "Compute",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Mysql",
+              "description": "A short description of the template can be showed here",
+              "type": "Mysql",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Dns",
+              "description": "A short description of the template can be showed here",
+              "type": "DNS",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            },
+            {
+              "title": "Mail Server",
+              "description": "A short description of the template can be showed here",
+              "type": "Mail",
+              "status": null,
+              "connectedOrCreated": null,
+              "fullfilled_by": null
+            }
+          ],
+          "inputs": [
+            {
+              "title": "wp_admin_username",
+              "value": "",
+              "instructions": "Wordpress username"
+            },
+            {
+              "title": "CPUs",
+              "value": "",
+              "instructions": "Number of CPUs for the server"
+            },
+            {
+              "title": "Storage_size",
+              "value": "",
+              "instructions": "Size of the storage to be created."
+            }
+          ]
+        }
+      }
     }
   ],
   "environments": [
@@ -566,7 +635,7 @@
       "name": "Test DB",
       "value": "mysql",
       "description": "Mysql",
-      "avatar": null,
+      "avatar": "https://i.postimg.cc/Z5LspyDP/pngwing-com.png",
       "platform": "Open Source",
       "type": "Mysql"
     },
@@ -574,7 +643,7 @@
       "name": "DB demo",
       "value": "mysql-aiven",
       "description": "Managed SQL as a service",
-      "avatar": null,
+      "avatar": "https://i.postimg.cc/Z5LspyDP/pngwing-com.png",
       "platform": "Amazon Redshift",
       "type": "Mysql"
     },
@@ -598,7 +667,7 @@
       "name": "Amazon SMS",
       "value": "amazon_sms",
       "description": "Amazon simple mail service",
-      "avatar": null,
+      "avatar": "https://i.postimg.cc/Z5LspyDP/pngwing-com.png",
       "platform": "Amazon aws",
       "type": "Mail"
     }
